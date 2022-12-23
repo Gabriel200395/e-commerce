@@ -3,14 +3,16 @@ import Header from "./components/header";
 import Products from "./components/products";
 import BannerProduct from "./components/bannerProduct";
 import Companies from "./components/companies";
+import Footer from "./components/footer";
 function App() {
   return (
     <>
       <Header />
       <Banner />
       <Products />
-      <BannerProduct /> 
+      <BannerProduct />
       <Companies />
+      <Footer />
     </>
   );
 }
