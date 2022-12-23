@@ -1,0 +1,58 @@
+.banner-product-container {
+  background-color: #40bfff;
+  height: 300px;
+  display: flex;
+  padding-left: 30px;
+  margin-top: 90px;
+}
+
+.banner-product-container .banner-product-container-text {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.banner-product-container .banner-product-container-text h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  width: 400px;
+  color: #fff;
+  margin-bottom: 40px;
+}
+
+.banner-product-container .banner-product-container-text p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.banner-product-container .banner-product-container-text span {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.banner-product-container .banner-product-container-text span::after {
+  border-bottom: solid 3px #fff;
+  width: 50px;
+  content: "";
+  display: block;
+  margin-top: 5px;
+}
+
+.banner-product-container .banner-product-container-img {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.banner-product-container .banner-product-container-img img {
+  margin-top: -40px;
+}
