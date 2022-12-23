@@ -20,7 +20,7 @@ export default function Header() {
       </div>
       <nav className="header-nav">
         <div className="logo">
-          <img src={logo} alt={logo}  />
+          <img src={logo} alt={logo} />
           <p>E-Comm</p>
         </div>
         <ul>
