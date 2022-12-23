@@ -1,8 +1,8 @@
 import "./styles.css";
 import logo from "../../assets/icons/logo.png";
 import facebook from "../../assets/img/facebook.png";
-import twitter from "../../assets/img/twitter.png"; 
-import brands from "../../assets/img/Brands.png"
+import twitter from "../../assets/img/twitter.png";
+import brands from "../../assets/img/Brands.png";
 
 export default function Footer() {
   return (
@@ -100,12 +100,11 @@ export default function Footer() {
           </p>
         </div>
       </div>
-       
-       <div className="sub-rodade">
-         <p>© 2018 Ecommerce theme by www.bisenbaev.com</p> 
-         <img src={brands} alt={brands}/>
-       </div>
 
+      <div className="sub-rodade">
+        <p>© 2022 Ecommerce theme by www.bisenbaev.com</p>
+        <img src={brands} alt={brands} />
+      </div>
     </div>
   );
 }
