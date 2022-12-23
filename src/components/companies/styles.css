@@ -1,0 +1,170 @@
+.companies-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.companies-container h2 {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: #22262a;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.companies-container .companies-informations-site {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 200px));
+  width: 100%;
+  justify-content: space-around;
+}
+
+.companies-container .companies-informations-site .companies-information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.companies-container .companies-informations-site .companies-information img {
+  height: 50px;
+  margin-bottom: 30px;
+}
+
+.companies-container .companies-informations-site .companies-information h3 {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: #22262a;
+  margin-bottom: 5px;
+}
+
+.companies-container .companies-informations-site .companies-information p {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #22262a;
+}
+
+.companies-container .companies-informations-news {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 280px));
+  width: 100%;
+  justify-content: space-around;
+}
+
+.companies-container .companies-informations-news .companies-information {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.companies-container .companies-informations-news .companies-information img {
+  height: 50px;
+  width: 100px;
+  margin-right: 30px;
+}
+
+.companies-container .companies-informations-news .companies-information h3 {
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: #22262a;
+  margin-bottom: 5px;
+}
+
+.companies-container .companies-informations-news .companies-information p {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #22262a;
+  text-align: left;
+}
+
+.companies-container .companies-informations-featured {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 280px));
+  width: 100%;
+  justify-content: space-around;
+}
+
+.companies-container .companies-informations-featured .companies-information {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.companies-container
+  .companies-informations-featured
+  .companies-information
+  img {
+  height: 60px;
+  margin-right: 30px;
+}
+
+.companies-container
+  .companies-informations-featured
+  .companies-information
+  h3 {
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: #22262a;
+  margin-bottom: 5px;
+}
+
+.companies-container .companies-informations-featured .companies-information p {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: #ff4858;
+  text-align: left;
+}
+
+.companies-container
+  .companies-informations-featured
+  .companies-information
+  .rate {
+  height: 10px;
+}
+
+.companies-container .container-field {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 90px;
+  margin-bottom: 90px;
+}
+
+.companies-container .container-field input {
+  width: 300px;
+  height: 40px;
+  outline: none;
+  border: solid 1px #bcddfe;
+  padding-left: 10px;
+}
+
+input::placeholder {
+  color: #262626;
+  opacity: 0.35;
+}
+
+.companies-container .container-field button {
+  width: 100px;
+  height: 40px;
+  outline: none;
+  background-color: #40bfff;
+  color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
