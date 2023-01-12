@@ -7,3 +7,27 @@
 body {
   background-color: #fafafb;
 }
+
+.modal {
+  background: rgba(34, 34, 34, 0.3);
+}
+
+.modal .container-cart .cart-header-product {
+  background-color: rgb(173 170 170 / 30%);
+}
+
+.modal .container-cart .cart-products .cart-item-product button {
+  background-color: rgb(173 170 170 / 30%);
+}
+
+.modal .container-cart .cart-products .cart-amount button {
+  background-color: rgb(173 170 170 / 30%);
+}
+
+.modal .container-cart .cart-products .cart-amount p {
+  background-color: rgb(173 170 170 / 30%);
+}
+
+.modal .container-cart .cart-products .img-product {
+  opacity: 0.5;
+}

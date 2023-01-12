@@ -1,7 +1,18 @@
 import "./styles.css";
 import tenis from "../../assets/img/produto_one.png";
+import Steps from "../steps";
+import { useEffect, useState } from "react";
 
 export default function Cart() {
+  const [modal, setModal] = useState(true);
+
+  useEffect(() => {
+    if (modal) {
+      let container = document.querySelector("#root") as HTMLDivElement; 
+      container.classList.add("modal")
+    }
+  }, [modal]);
+
   return (
     <div className="container-cart">
       <div className="cart-header-product">Nike Airmax 270 React</div>
@@ -105,6 +116,8 @@ export default function Cart() {
           <button>Check out</button>
         </div>
       </div>
+
+      {modal && <Steps />}
     </div>
   );
 }
