@@ -2,10 +2,11 @@
   position: absolute;
   top: 200px;
   background-color: #ffffff;
-  height: 500px;
-  max-width: 700px;
+  height: 750px;
+  max-width: 800px;
   width: 100%;
   border-radius: 5px;
+  animation: fadein 2s;
 }
 
 .modal-container h2 {
@@ -57,30 +58,27 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 50%; 
-  color: #fff; 
+  border-radius: 50%;
+  color: #fff;
   font-family: "Montserrat", sans-serif;
   font-size: 18px;
   font-weight: 500;
 }
- 
 
 .modal-container .steps-container .disabled {
-  background-color: #40bfff; 
+  background-color: #40bfff;
   opacity: 0.2;
   height: 50px;
   width: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 50%; 
-  color: #fff; 
+  border-radius: 50%;
+  color: #fff;
   font-family: "Montserrat", sans-serif;
   font-size: 18px;
   font-weight: 500;
 }
-
-
 
 .modal-container .steps-container .border-step {
   height: 50px;
@@ -94,6 +92,156 @@
   border-bottom: solid 3px #40bfff;
   width: 100%;
   display: block;
-  content: ""; 
+  content: "";
   opacity: 0.2;
+}
+
+.modal-container .modal-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 40px;
+}
+
+.modal-container form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.modal-container .modal-form .modal-column-one {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+.modal-container .modal-form .modal-column-two {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 50%;
+}
+
+.modal-container .modal-form .modal-column-one .fields-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-container .modal-form .modal-column-one .fields-container input {
+  background-color: #dfdede;
+  height: 45px;
+  width: 300px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  padding-left: 20px;
+  font-family: "Montserrat", sans-serif;
+  opacity: 0.8;
+}
+
+.modal-container .modal-form .modal-column-one .fields-container ::placeholder {
+  color: #999999;
+}
+
+.modal-container .modal-form .payment-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 50px;
+}
+
+.modal-container .modal-form .payment-container .payment-item {
+  display: flex;
+  justify-content: space-between;
+  height: 45px;
+  max-width: 300px;
+  width: 100%;
+  align-items: center;
+  background-color: #dfdede;
+  margin-bottom: 10px;
+  opacity: 0.8;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 5px;
+}
+
+.modal-container .modal-form .payment-container .payment-item .payment-logo {
+  display: flex;
+  align-items: center;
+}
+
+.modal-container .modal-form .payment-container .payment-item .payment-logo p {
+  color: #223263;
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  margin-left: 10px;
+}
+
+.modal-container .modal-form .payment-container h3 {
+  color: #40bfff;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.modal-container .modal-form .modal-column-two .fields-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-container .modal-form .modal-column-two .fields-container input {
+  background-color: #dfdede;
+  height: 45px;
+  width: 300px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  padding-left: 20px;
+  font-family: "Montserrat", sans-serif;
+  opacity: 0.8;
+}
+
+.modal-container .modal-form .modal-column-two .fields-container textarea {
+  background-color: #dfdede;
+  height: 150px;
+  width: 300px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  padding-left: 20px;
+  font-family: "Montserrat", sans-serif;
+  opacity: 0.8;
+  padding-top: 20px;
+  resize: none;
+}
+
+.modal-container .modal-form .modal-column-two .fields-container ::placeholder {
+  color: #999999;
+}
+
+.modal-container button {
+  background-color: #33a0ff;
+  height: 50px;
+  width: 200px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 30px;
+  color: #fff;
+  cursor: pointer;
 }

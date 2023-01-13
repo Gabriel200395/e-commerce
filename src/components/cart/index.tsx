@@ -4,12 +4,12 @@ import Steps from "../steps";
 import { useEffect, useState } from "react";
 
 export default function Cart() {
-  const [modal, setModal] = useState(true);
+  const [modal, setModal] = useState(false);
 
   useEffect(() => {
     if (modal) {
-      let container = document.querySelector("#root") as HTMLDivElement; 
-      container.classList.add("modal")
+      let container = document.querySelector("#root") as HTMLDivElement;
+      container.classList.add("modal");
     }
   }, [modal]);
 
@@ -113,7 +113,7 @@ export default function Cart() {
             <p>TOTAL</p>
             <p>$118</p>
           </div>
-          <button>Check out</button>
+          <button onClick={() => setModal(true)}>Check out</button>
         </div>
       </div>
 
