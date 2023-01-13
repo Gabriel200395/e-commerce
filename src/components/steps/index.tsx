@@ -26,7 +26,7 @@ export default function Steps() {
         <span className="active">3</span>
       </div>
 
-      {/* <form onSubmit={(e: ChangeEvent<HTMLFormElement>) => e.preventDefault()}>
+       <form onSubmit={(e: ChangeEvent<HTMLFormElement>) => e.preventDefault()}>
         <div className="modal-form">
           <div className="modal-column-one">
             <div className="fields-container">
@@ -71,7 +71,7 @@ export default function Steps() {
 
         <button>Go to Payment</button>
       </form> 
- */}
+ 
 
   {/*     <form onSubmit={(e: ChangeEvent<HTMLFormElement>) => e.preventDefault()}>
         <div className="modal-form-two">
@@ -90,7 +90,7 @@ export default function Steps() {
         <button>Go to Payment</button>
       </form> */}
 
-      <form onSubmit={(e: ChangeEvent<HTMLFormElement>) => e.preventDefault()}>
+      {/* <form onSubmit={(e: ChangeEvent<HTMLFormElement>) => e.preventDefault()}>
         <div className="modal-form-three">
           <div className="modal-column-one">
             <img src={sucess} alt={sucess} /> 
@@ -99,7 +99,7 @@ export default function Steps() {
         </div>
 
         <button>Go to Payment</button>
-      </form> 
+      </form> */}
     </div>
   );
 }

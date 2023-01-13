@@ -3,10 +3,11 @@ import ShoppingCart from "./page/shopping_cart";
 //iniciado projeto dia 12/01/2027
 //data de conclusão dia 19/01/2027
 
-//pomomdoros 1/2 pomodoro  12/01/2027 
+//pomomdoros 1/2 pomodoro  12/01/2027
 //pomomdoros 2/2 pomodoro  13/01/2027
 
-//[] desenvolver formularios
+//[X] desenvolver formularios
+//[] componentizar formulario
 //[] react router dom
 //[] redux toolkit
 //[] filtro product pagina home com a arquitetura redux
