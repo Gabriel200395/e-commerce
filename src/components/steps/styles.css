@@ -1,9 +1,99 @@
 .modal-container {
   position: absolute;
   top: 200px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   height: 500px;
   max-width: 700px;
-  width: 100%; 
+  width: 100%;
   border-radius: 5px;
+}
+
+.modal-container h2 {
+  color: #40bfff;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  margin-bottom: 43px;
+}
+
+.modal-container .modal-header {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+  align-items: center;
+}
+
+.modal-container .modal-header button {
+  height: 50px;
+  display: flex;
+  width: 50px;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+  border: none;
+  border-radius: 50%;
+  font-size: 20px;
+  color: #40bfff;
+  background-color: transparent;
+}
+
+.modal-container .modal-header i {
+  opacity: 0.5;
+}
+
+.modal-container .steps-container {
+  display: flex;
+  justify-content: center;
+}
+
+.modal-container .steps-container .active {
+  background-color: #40bfff;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%; 
+  color: #fff; 
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+ 
+
+.modal-container .steps-container .disabled {
+  background-color: #40bfff; 
+  opacity: 0.2;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%; 
+  color: #fff; 
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+
+
+.modal-container .steps-container .border-step {
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-container .steps-container .border-step::before {
+  border-bottom: solid 3px #40bfff;
+  width: 100%;
+  display: block;
+  content: ""; 
+  opacity: 0.2;
 }
