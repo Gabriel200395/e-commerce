@@ -4,7 +4,7 @@ import Steps from "../steps";
 import { useEffect, useState } from "react";
 
 export default function Cart() {
-  const [modal, setModal] = useState(false);
+  const [modal, setModal] = useState(true);
 
   useEffect(() => {
     if (modal) {

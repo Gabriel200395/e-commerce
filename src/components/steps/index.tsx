@@ -1,6 +1,7 @@
 import credit from "../../assets/icons/credit.png";
 import paypal from "../../assets/icons/paypal.png";
 import bank from "../../assets/icons/bank.png";
+import sucess from "../../assets/icons/sucess.png";
 
 import "./styles.css";
 import { ChangeEvent } from "react";
@@ -20,12 +21,12 @@ export default function Steps() {
       <div className="steps-container">
         <span className="active">1</span>
         <div className="border-step"></div>
-        <span className="disabled">2</span>
+        <span className="active">2</span>
         <div className="border-step"></div>
-        <span className="disabled">3</span>
+        <span className="active">3</span>
       </div>
 
-      <form onSubmit={(e: ChangeEvent<HTMLFormElement>) => e.preventDefault()}>
+      {/* <form onSubmit={(e: ChangeEvent<HTMLFormElement>) => e.preventDefault()}>
         <div className="modal-form">
           <div className="modal-column-one">
             <div className="fields-container">
@@ -69,7 +70,36 @@ export default function Steps() {
         </div>
 
         <button>Go to Payment</button>
-      </form>
+      </form> 
+ */}
+
+  {/*     <form onSubmit={(e: ChangeEvent<HTMLFormElement>) => e.preventDefault()}>
+        <div className="modal-form-two">
+          <div className="modal-column-one">
+            <div className="fields-container">
+              <input type="text" placeholder="Card Number" />
+              <div className="fields-grups">
+                <input type="text" placeholder="Expiry" />
+                <input type="text" placeholder="CVV" />
+              </div>
+              <input type="text" placeholder="Holder Number" />
+            </div>
+          </div>
+        </div>
+
+        <button>Go to Payment</button>
+      </form> */}
+
+      <form onSubmit={(e: ChangeEvent<HTMLFormElement>) => e.preventDefault()}>
+        <div className="modal-form-three">
+          <div className="modal-column-one">
+            <img src={sucess} alt={sucess} /> 
+             <h3>Success</h3>
+          </div>
+        </div>
+
+        <button>Go to Payment</button>
+      </form> 
     </div>
   );
 }

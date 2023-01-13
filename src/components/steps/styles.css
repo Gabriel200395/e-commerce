@@ -245,3 +245,115 @@
   color: #fff;
   cursor: pointer;
 }
+
+/*two*/
+
+.modal-container .modal-form-two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 40px;
+}
+
+.modal-container form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.modal-container .modal-form-two .modal-column-one {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 300px;
+}
+
+.modal-container .modal-form-two .modal-column-one .fields-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-container .modal-form-two .modal-column-one .fields-container input {
+  background-color: #dfdede;
+  height: 45px;
+  width: 300px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  padding-left: 20px;
+  font-family: "Montserrat", sans-serif;
+  opacity: 0.8;
+}
+
+.modal-container .modal-form .modal-column-one .fields-container ::placeholder {
+  color: #999999;
+}
+
+.modal-container button {
+  background-color: #33a0ff;
+  height: 50px;
+  width: 200px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 30px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.modal-container
+  .modal-form-two
+  .modal-column-one
+  .fields-container
+  .fields-grups {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.modal-container .modal-form-two .modal-column-one .fields-grups input {
+  width: 140px;
+}
+
+.modal-container
+  .modal-form-two
+  .modal-column-one
+  .fields-grups
+  input:nth-child(1) {
+  margin-right: 20px;
+}
+
+/*two*/
+
+.modal-container .modal-form-three {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 40px;
+}
+
+.modal-container .modal-form-three .modal-column-one {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 300px;
+}
+
+.modal-container .modal-form-three .modal-column-one h3 {
+  color: #223263;
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  margin-left: 10px;
+}
