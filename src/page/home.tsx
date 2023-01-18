@@ -6,6 +6,7 @@ import Companies from "../components/companies";
 import Footer from "../components/footer";
 
 function Home() {
+
   return (
     <>
       <Header />
