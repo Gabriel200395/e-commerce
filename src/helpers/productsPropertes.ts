@@ -3,7 +3,9 @@
     bags: {
        products: [
            {
-            name: ""
+            name: "", 
+            link: "",
+            price: "", 
            } 
 
        ]
@@ -12,4 +14,10 @@
 
 
 
- }
+ } 
+
+
+
+ //camisa    
+ //oculos
+
