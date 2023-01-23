@@ -1,13 +1,13 @@
 import "./styles.css";
-import bannerOne from "../../assets/img/produto_one.png";
-import bannerTwo from "../../assets/img/produto_two.png";
-import bannerTheere from "../../assets/img/produto_three.png";
+import bannerOne from "../../assets/img/pruduto_tenis.png";
+import bannerTwo from "../../assets/img/camiseta_nike_selecao.png";
+import bannerTheere from "../../assets/img/short_nike_liverpool.png";
 
 export default function Banner() {
   return (
     <div className="banner-container">
       <div className="banner">
-        <h2>Super Flash Sale 50% Off</h2>
+        <h2>Promoção Super Flash com 50% de desconto</h2>
       </div>
       <div className="banners">
         <div className="banner-item">

@@ -25,10 +25,10 @@ export default function Header() {
         </div>
         <ul>
           <li>HOME</li>
-          <li>BAGS</li>
-          <li>SNEAKERS</li>
-          <li>BELT</li>
-          <li>CONTACT</li>
+          <li>BERMUDAS</li>
+          <li>CAMISETAS</li>
+          <li>POLCHETES</li>
+          <li>TÊNIS</li>
         </ul>
       </nav>
     </div>

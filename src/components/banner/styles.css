@@ -6,7 +6,7 @@
   background-size: contain;
   display: flex;
   justify-content: flex-start;
-  align-items: center; 
+  align-items: center;
 }
 
 .banner-container .banner h2 {
@@ -29,14 +29,14 @@
 }
 
 .banner-container .banners img {
-  height: 270px;
+  height: 300px;
   width: 390px;
-  background-size: contain;
-} 
+  background-size: cover;
+}
 
 .banner-container .banners .banner-item {
-  background-color: #fff; 
-  height: 270px; 
+  background-color: #fff;
+  height: 300px;
   width: 390px;
   filter: drop-shadow(0px 10px 25px rgba(102, 102, 102, 0.15));
 }
