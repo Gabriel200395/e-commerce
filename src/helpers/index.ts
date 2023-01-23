@@ -1,3 +1,3 @@
-import { products } from "./productsPropertes";
+import { stockProducts } from "./productsPropertes";
 
-export { products };
+export { stockProducts };

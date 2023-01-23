@@ -19,52 +19,58 @@ import claspsTheree from "../assets/img/Pochete_Nike_Unissex_blue.png";
 import claspsFour from "../assets/img/polchete_nike.png";
 import claspsFive from "../assets/img/Pochete_Nike_Unissex.png";
 
-export const products = {
+interface InstanceProduct {
+  [key: string]: {
+    products: { name: string; price: number; link: string }[];
+  };
+}
+
+export const stockProducts: InstanceProduct = {
   tennis: {
     products: [
       {
         name: "Nike Colors",
         link: TenisOne,
-        price: "300",
+        price: 300,
       },
       {
         name: "Tênis Nike Airmax Branco",
         link: TennisTwo,
-        price: "200",
+        price: 350,
       },
       {
         name: "Tênis Nike Airmax Branco",
         link: TennisThree,
-        price: "200",
+        price: 600,
       },
       {
         name: "Tênis Nike",
         link: TennisFour,
-        price: "300",
+        price: 500,
       },
     ],
   },
-  Tshirts: {
+  tshirts: {
     products: [
       {
         name: "Camisa Nike Dri-fit Preta",
         link: TshirtOne,
-        price: "300",
+        price: 130,
       },
       {
         name: "Camisa Nike Dri-fit Azul",
         link: TshirtTwo,
-        price: "200",
+        price: 70,
       },
       {
         name: "Camisa Nike Dri-fit Azul",
         link: TshirtTheree,
-        price: "200",
+        price: 100,
       },
       {
         name: "Camisa Nike Dri-fit Vermelha",
         link: TshirtFour,
-        price: "300",
+        price: 150,
       },
     ],
   },
@@ -74,22 +80,22 @@ export const products = {
       {
         name: "Calção Nike Dri-fit Preta e Branco",
         link: shortsOne,
-        price: "300",
+        price: 110,
       },
       {
         name: "Calção Nike Dri-fit Preta e Laranja",
         link: shortsTwo,
-        price: "200",
+        price: 140,
       },
       {
         name: "Calção Nike Dri-fit Liverpoll",
         link: shortsTheree,
-        price: "200",
+        price: 120,
       },
       {
         name: "Calção Nike Dri-fit Seleção Brasileira",
         link: shortsFour,
-        price: "300",
+        price: 130,
       },
     ],
   },
@@ -99,106 +105,108 @@ export const products = {
       {
         name: "Polchete Nike Preta",
         link: claspsOne,
-        price: "300",
+        price: 170,
       },
       {
         name: "Polchete Heritage Unissex",
         link: claspsTwo,
-        price: "200",
+        price: 200,
       },
       {
         name: "Polchete Nike Blue",
         link: claspsTheree,
-        price: "200",
+        price: 200,
       },
       {
         name: "Polchete Heritage Unissex Rosa",
         link: claspsFour,
-        price: "300",
+        price: 200,
       },
     ],
   },
 
-  allProducts: [
-    {
-      name: "Nike Colors",
-      link: TenisOne,
-      price: "300",
-    },
-    {
-      name: "Tênis Nike Airmax Branco",
-      link: TennisTwo,
-      price: "200",
-    },
-    {
-      name: "Tênis Nike Airmax Branco",
-      link: TennisThree,
-      price: "200",
-    },
-    {
-      name: "Tênis Nike",
-      link: TennisFour,
-      price: "300",
-    },
-    {
-      name: "Camisa Nike Dri-fit Preta",
-      link: TshirtOne,
-      price: "300",
-    },
-    {
-      name: "Camisa Nike Dri-fit Azul",
-      link: TshirtTwo,
-      price: "200",
-    },
-    {
-      name: "Camisa Nike Dri-fit Azul",
-      link: TshirtTheree,
-      price: "200",
-    },
-    {
-      name: "Camisa Nike Dri-fit Vermelha",
-      link: TshirtFour,
-      price: "300",
-    },
-    {
-      name: "Calção Nike Dri-fit Preta e Branco",
-      link: shortsOne,
-      price: "300",
-    },
-    {
-      name: "Calção Nike Dri-fit Preta e Laranja",
-      link: shortsTwo,
-      price: "200",
-    },
-    {
-      name: "Calção Nike Dri-fit Liverpoll",
-      link: shortsTheree,
-      price: "200",
-    },
-    {
-      name: "Calção Nike Dri-fit Seleção Brasileira",
-      link: shortsFour,
-      price: "300",
-    },
-    {
-      name: "Polchete Nike Preta",
-      link: claspsOne,
-      price: "300",
-    },
-    {
-      name: "Polchete Heritage Unissex",
-      link: claspsTwo,
-      price: "200",
-    },
-    {
-      name: "Polchete Nike Blue",
-      link: claspsTheree,
-      price: "200",
-    },
-    {
-      name: "Polchete Heritage Unissex Rosa",
-      link: claspsFour,
-      price: "300",
-    },
-  ],
+  allProducts: {
+    products: [
+      {
+        name: "Nike Colors",
+        link: TenisOne,
+        price: 300,
+      },
+      {
+        name: "Tênis Nike Airmax Branco",
+        link: TennisTwo,
+        price: 350,
+      },
+      {
+        name: "Tênis Nike Airmax Branco",
+        link: TennisThree,
+        price: 600,
+      },
+      {
+        name: "Tênis Nike",
+        link: TennisFour,
+        price: 500,
+      },
+      {
+        name: "Camisa Nike Dri-fit Preta",
+        link: TshirtOne,
+        price: 130,
+      },
+      {
+        name: "Camisa Nike Dri-fit Azul",
+        link: TshirtTwo,
+        price: 70,
+      },
+      {
+        name: "Camisa Nike Dri-fit Azul",
+        link: TshirtTheree,
+        price: 100,
+      },
+      {
+        name: "Camisa Nike Dri-fit Vermelha",
+        link: TshirtFour,
+        price: 150,
+      },
+      {
+        name: "Calção Nike Dri-fit Preta e Branco",
+        link: shortsOne,
+        price: 110,
+      },
+      {
+        name: "Calção Nike Dri-fit Preta e Laranja",
+        link: shortsTwo,
+        price: 140,
+      },
+      {
+        name: "Calção Nike Dri-fit Liverpoll",
+        link: shortsTheree,
+        price: 120,
+      },
+      {
+        name: "Calção Nike Dri-fit Seleção Brasileira",
+        link: shortsFour,
+        price: 130,
+      },
+      {
+        name: "Polchete Nike Preta",
+        link: claspsOne,
+        price: 170,
+      },
+      {
+        name: "Polchete Heritage Unissex",
+        link: claspsTwo,
+        price: 200,
+      },
+      {
+        name: "Polchete Nike Blue",
+        link: claspsTheree,
+        price: 200,
+      },
+      {
+        name: "Polchete Heritage Unissex Rosa",
+        link: claspsFour,
+        price: 200,
+      },
+    ],
+  },
 };
