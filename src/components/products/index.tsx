@@ -1,5 +1,5 @@
 import "./styles.css";
-import tenis from "../../assets/img/pruduto_tenis.png";
+import tenis from "../../assets/img/tenis_one.png";
 export default function Products() {
   return (
     <div className="products-container">

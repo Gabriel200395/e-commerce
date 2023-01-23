@@ -1,5 +1,5 @@
 import "./styles.css";
-import bannerOne from "../../assets/img/pruduto_tenis.png";
+import bannerOne from "../../assets/img/produto_one.png";
 import bannerTwo from "../../assets/img/camiseta_nike_selecao.png";
 import bannerTheere from "../../assets/img/short_nike_liverpool.png";
 
