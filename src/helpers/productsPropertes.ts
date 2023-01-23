@@ -1,4 +1,4 @@
-import TenisOne from "../assets/img/produto_one.png";
+import TenisOne from "../assets/img/tennis_two.png";
 import TennisTwo from "../assets/img/tenis.two.png";
 import TennisThree from "../assets/img/tenis_three.png";
 import TennisFour from "../assets/img/tenis_four.png";
@@ -16,7 +16,7 @@ import shortsFive from "../assets/img/short_nike_selecao.png";
 import claspsOne from "../assets/img/Pochete_Nike_black.png";
 import claspsTwo from "../assets/img/Pochete_Nike_Heritage_Unissex.png";
 import claspsTheree from "../assets/img/Pochete_Nike_Unissex_blue.png";
-import claspsFour from "../assets/img/Pochete_Nike_Unissex_pink.png";
+import claspsFour from "../assets/img/polchete_nike.png";
 import claspsFive from "../assets/img/Pochete_Nike_Unissex.png";
 
 export const products = {
@@ -42,11 +42,6 @@ export const products = {
         link: TennisFour,
         price: "300",
       },
-      {
-        name: "Tênis Nike Airmax Preto e Branco",
-        link: TennisFive,
-        price: "200",
-      },
     ],
   },
   Tshirts: {
@@ -70,11 +65,6 @@ export const products = {
         name: "Camisa Nike Dri-fit Vermelha",
         link: TshirtFour,
         price: "300",
-      },
-      {
-        name: "Camisa Nike Dri-fit Seleção",
-        link: TshirtFive,
-        price: "200",
       },
     ],
   },
@@ -101,11 +91,6 @@ export const products = {
         link: shortsFour,
         price: "300",
       },
-      {
-        name: "Calção Nike Dri-fit Seleção Brasileira",
-        link: shortsFive,
-        price: "200",
-      },
     ],
   },
 
@@ -130,11 +115,6 @@ export const products = {
         name: "Polchete Heritage Unissex Rosa",
         link: claspsFour,
         price: "300",
-      },
-      {
-        name: "Polchete Heritage Unissex Rosa",
-        link: claspsFive,
-        price: "200",
       },
     ],
   },
@@ -161,11 +141,6 @@ export const products = {
       price: "300",
     },
     {
-      name: "Tênis Nike Airmax Preto e Branco",
-      link: TennisFive,
-      price: "200",
-    },
-    {
       name: "Camisa Nike Dri-fit Preta",
       link: TshirtOne,
       price: "300",
@@ -184,11 +159,6 @@ export const products = {
       name: "Camisa Nike Dri-fit Vermelha",
       link: TshirtFour,
       price: "300",
-    },
-    {
-      name: "Camisa Nike Dri-fit Seleção",
-      link: TshirtFive,
-      price: "200",
     },
     {
       name: "Calção Nike Dri-fit Preta e Branco",
@@ -211,11 +181,6 @@ export const products = {
       price: "300",
     },
     {
-      name: "Calção Nike Dri-fit Seleção Brasileira",
-      link: shortsFive,
-      price: "200",
-    },
-    {
       name: "Polchete Nike Preta",
       link: claspsOne,
       price: "300",
@@ -234,11 +199,6 @@ export const products = {
       name: "Polchete Heritage Unissex Rosa",
       link: claspsFour,
       price: "300",
-    },
-    {
-      name: "Polchete Heritage Unissex Rosa",
-      link: claspsFive,
-      price: "200",
     },
   ],
 };

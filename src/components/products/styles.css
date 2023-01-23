@@ -61,14 +61,15 @@
 
 .products-container .products-cards .card-item {
   background-color: #fafafb;
-  height: 330px;
+  height: 400px;
   box-shadow: 1px 1px 1px 1px #ccccd1;
   border-radius: 4px;
 }
 
 .products-container .products-cards .card-item img {
-  height: 200px;
+  height: 270px;
   width: 100%;
+  object-fit: cover;
 }
 
 .products-container .products-cards .card-item .card-text h4 {
@@ -151,5 +152,3 @@
   cursor: pointer;
   margin-top: 30px;
 }
-
-
